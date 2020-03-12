@@ -1,2 +1,3 @@
 # The project is in progres...
 # Developing a block device driver capable of tracking IO's to a particular block device and storing these details in a file.
+# As of today it is capable of setting up a device, registering the blk device, creating the gendisk structure and handling a request. Further changes would be done in the request and ioctl handling.
